@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Periodic Table of Elements</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+}
+
+h1 {
+  background-color: yellow;
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.classification {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.classification th {
+  padding: 10px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+}
+
+.classification td {
+  padding: 15px;
+}
+
+.metals, .nonmetals, .neither {
+  background-color: #1a237e;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+table.periodic {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table.periodic td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.yellow {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.blue {
+  background-color: #0d47a1;
+  color: white;
+}
+
+.empty {
+  border: none;
+  background-color: transparent;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #004d99;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  color: #004d99;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.back-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+</style>
+</head>
+<body>
+
+<!-- Back Button -->
+<div style="text-align: center; margin-top: 20px;">
+  <a href="index.html" class="back-button">Back to Home</a>
+</div>
+
+<h1>The Periodic Table of Elements</h1>
+
+<table class="classification">
+<tr>
+<th colspan="3">Periodic Table of Elements</th>
+</tr>
+<tr>
+<td class="metals">Metals</td>
+<td class="nonmetals">Nonmetals</td>
+<td class="neither">Neither</td>
+</tr>
+<tr>
+<td>
+Alkali Metals<br>
+Alkaline Earth Metals<br>
+Lanthanoids<br>
+Actinoids<br>
+Transition Metals<br>
+Post-Transition Metals
+</td>
+<td>
+Noble Gases<br>
+Reactive Nonmetals
+</td>
+<td>
+Metalloids
+</td>
+</tr>
+</table>
+
+<table class="periodic">
+<tr>
+<td class="yellow">H</td>
+<td colspan="16" class="empty"></td>
+<td class="yellow">He</td>
+</tr>
+<tr>
+<td class="yellow">Li</td><td class="yellow">Be</td>
+<td colspan="10" class="empty"></td>
+<td class="yellow">B</td><td class="yellow">C</td><td class="yellow">N</td><td class="yellow">O</td><td class="yellow">F</td><td class="yellow">Ne</td>
+</tr>
+<tr>
+<td class="yellow">Na</td><td class="yellow">Mg</td>
+<td colspan="10" class="empty"></td>
+<td class="yellow">Al</td><td class="yellow">Si</td><td class="yellow">P</td><td class="yellow">S</td><td class="yellow">Cl</td><td class="yellow">Ar</td>
+</tr>
+<tr>
+<td class="yellow">K</td><td class="yellow">Ca</td><td class="yellow">Sc</td><td class="yellow">Ti</td>
+<td class="yellow">V</td><td class="yellow">Cr</td><td class="yellow">Mn</td><td class="yellow">Fe</td>
+<td class="yellow">Co</td><td class="yellow">Ni</td><td class="yellow">Cu</td><td class="yellow">Zn</td>
+<td class="yellow">Ga</td><td class="yellow">Ge</td><td class="yellow">As</td><td class="yellow">Se</td><td class="yellow">Br</td><td class="yellow">Kr</td>
+</tr>
+<tr>
+<td class="yellow">Rb</td><td class="yellow">Sr</td><td class="yellow">Y</td><td class="yellow">Zr</td>
+<td class="yellow">Nb</td><td class="yellow">Mo</td><td class="yellow">Tc</td><td class="yellow">Ru</td>
+<td class="yellow">Rh</td><td class="yellow">Pd</td><td class="yellow">Ag</td><td class="yellow">Cd</td>
+<td class="yellow">In</td><td class="yellow">Sn</td><td class="yellow">Sb</td><td class="yellow">Te</td><td class="yellow">I</td><td class="yellow">Xe</td>
+</tr>
+<tr>
+<td class="yellow">Cs</td><td class="yellow">Ba</td><td class="yellow">*</td><td class="yellow">Hf</td>
+<td class="yellow">Ta</td><td class="yellow">W</td><td class="yellow">Re</td><td class="yellow">Os</td>
+<td class="yellow">Ir</td><td class="yellow">Pt</td><td class="yellow">Au</td><td class="yellow">Hg</td>
+<td class="yellow">Tl</td><td class="yellow">Pb</td><td class="yellow">Bi</td><td class="yellow">Po</td><td class="yellow">At</td><td class="yellow">Rn</td>
+</tr>
+<tr>
+<td class="yellow">Fr</td><td class="yellow">Ra</td><td class="yellow">*</td><td class="yellow">Rf</td>
+<td class="yellow">Db</td><td class="yellow">Sg</td><td class="yellow">Bh</td><td class="yellow">Hs</td>
+<td class="yellow">Mt</td><td class="yellow">Ds</td><td class="yellow">Rg</td><td class="yellow">Cn</td>
+<td class="yellow">Nh</td><td class="yellow">Fl</td><td class="yellow">Mc</td><td class="yellow">Lv</td><td class="yellow">Ts</td><td class="yellow">Og</td>
+</tr>
+<tr>
+<td colspan="3" class="empty"></td>
+<td class="blue">La</td><td class="blue">Ce</td><td class="blue">Pr</td><td class="blue">Nd</td><td class="blue">Pm</td>
+<td class="blue">Sm</td><td class="blue">Eu</td><td class="blue">Gd</td><td class="blue">Tb</td><td class="blue">Dy</td>
+<td class="blue">Ho</td><td class="blue">Er</td><td class="blue">Tm</td><td class="blue">Yb</td><td class="blue">Lu</td>
+</tr>
+<tr>
+<td colspan="3" class="empty"></td>
+<td class="blue">Ac</td><td class="blue">Th</td><td class="blue">Pa</td><td class="blue">U</td><td class="blue">Np</td>
+<td class="blue">Pu</td><td class="blue">Am</td><td class="blue">Cm</td><td class="blue">Bk</td><td class="blue">Cf</td>
+<td class="blue">Es</td><td class="blue">Fm</td><td class="blue">Md</td><td class="blue">No</td><td class="blue">Lr</td>
+</tr>
+</table>
+
+<h2 style="text-align:center;">Reference Image</h2>
+<div style="text-align:center;">
+<img src="C:\Users\202320004\Downloads\Screenshot 2025-05-14 123520.png" alt="Periodic Table Reference" width="800">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

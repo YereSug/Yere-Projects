@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+
+    nav a {
+      color: rgb(230, 148, 212);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+      border-bottom: 2px solid #ffd700;
+    }
+
+    button {
+      transition: transform 0.1s ease;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    input:focus, textarea:focus {
+      border-color: #8cbff1;
+      outline: none;
+      background-color: #f0f8ff;
+    }
+
+    input:invalid, textarea:invalid {
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img id="top-left-gif" src="https://media.tenor.com/sbfBfp3FeY8AAAAm/oia-uia.webp" alt="GIF">
+    <h1>Welcome to My Website!</h1>
+    <p class="tagline">A glimpse into who I am and what I do</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" style="text-align: center;">
+      <div class="about-box">
+        <h2>About Me:</h2>
+        <p>Hello I'm Yrre, I am currently a student at Far Eastern University Institute of Technology studying Cyber Security, where I am learning how to protect digital systems, networks, and data from cyber threats. 
+          My studies focus on understanding security protocols, ethical hacking, digital forensics, and risk management. As technology continues to evolve, I am passionate about contributing to a safer 
+          digital environment and equipping myself with the skills needed to defend against emerging cyber risks.</p>
+      </div>
+    </section>
+
+    <section id="photo" style="text-align: center;">
+      <img src="C:\Users\202320004\Downloads\MyWebsite\image.png" alt="Personal Photo" style="display: block; margin: 0 auto; max-width: 100%; height: auto;" style="display: block; margin: 0 auto; max-width: 100%; height: auto; border: 5px solid #004d99; border-radius: 10px;">
+      <p>This is a showcase of my projects:</p>
+      <div class="project-showcase">
+        <div class="project">
+          <a href="Suguitan_Lab3.html">
+            <img src="C:\Users\202320004\Downloads\MyWebsite\Screenshot 2025-06-25 010840.png">
+          </a>
+          <p>Lab 3 - Periodic Table</p>
+        </div>
+        <div class="project">
+          <a href="Suguitan_Lab4.html">
+            <img src="C:\Users\202320004\Downloads\MyWebsite\Screenshot 2025-06-25 011059.png" alt="Lab 4 - SDG Form">
+          </a>
+          <p>Lab 4 - SDG Form</p>
+        </div>
+        <div class="project">
+          <a href="Suguitan_Lab5beta1.html">
+            <img src="C:\Users\202320004\Downloads\MyWebsite\Screenshot 2025-06-25 011130.png" alt="Lab 5 - SDG Grid">
+          </a>
+          <p>Lab 5 - SDG Grid</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

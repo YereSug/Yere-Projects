@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>UN SDGs Webpage</title>
+	<link rel="stylesheet" href="Suguitan_Lab5style 1.css" />
+</head>
+	<div style="text-align: center; margin-top: 20px;">
+		<a href="index.html" style="display: inline-block; padding: 10px 20px; border: 2px solid #004d99; border-radius: 10px; background-color: #f0f8ff; color: #004d99; text-decoration: none; font-weight: bold; transition: transform 0.3s, box-shadow 0.3s;">
+	  	Back to Home
+		</a>
+  	</div>
+	<body>
+		<div class="container">
+		<header>
+			<div class="header-container">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="Site Logo" class="logo" />
+				<h1>United Nations Sustainable Development Goals</h1>
+			</div>
+		</header>
+<nav class="sidebar">
+	<ul>
+		<li><a href="#goal1">1. No Poverty</a></li>
+		<li><a href="#goal2">2. Zero Hunger</a></li>
+		<li><a href="#goal3">3. Good Health</a></li>
+		<li><a href="#goal4">4. Quality Education</a></li>
+		<li><a href="#goal5">5. Gender Equality</a></li>
+		<li><a href="#goal6">6. Clean Water</a></li>
+		<li><a href="#goal7">7. Affordable Energy</a></li>
+		<li><a href="#goal8">8. Decent Work</a></li>
+		<li><a href="#goal9">9. Industry Innovation</a></li>
+		<li><a href="#goal10">10. Reduced Inequality</a></li>
+		<li><a href="#goal11">11. Sustainable Cities</a></li>
+		<li><a href="#goal12">12. Responsible Consumption</a></li>
+		<li><a href="#goal13">13. Climate Action</a></li>
+		<li><a href="#goal14">14. Life Below Water</a></li>
+		<li><a href="#goal15">15. Life on Land</a></li>
+		<li><a href="#goal16">16. Peace & Justice</a></li>
+		<li><a href="#goal17">17. Partnerships</a></li>
+	</ul>
+</nav>
+<main class="content">
+	<section id="goal1"><h2>1. No Poverty</h2><p>End poverty in all its forms everywhere.</p></section>
+	<section id="goal2"><h2>2. Zero Hunger</h2><p>End hunger, achieve food security, and improve nutrition.</p></section>
+	<section id="goal3"><h2>3. Good Health and Well-being</h2><p>Ensure healthy lives and promote well-being for all at all ages.</p></section>
+	<section id="goal4"><h2>4. Quality Education</h2><p>Ensure inclusive and equitable quality education for all.</p></section>
+	<section id="goal5"><h2>5. Gender Equality</h2><p>Achieve gender equality and empower all women and girls.</p></section>
+	<section id="goal6"><h2>6. Clean Water and Sanitation</h2><p>Ensure availability and sustainable management of water and sanitation for all.</p></section>
+	<section id="goal7"><h2>7. Affordable and Clean Energy</h2><p>Ensure access to affordable, reliable, and sustainable energy for all.</p></section>
+	<section id="goal8"><h2>8. Decent Work and Economic Growth</h2><p>Promote sustained, inclusive economic growth and decent work for all.</p></section>
+	<section id="goal9"><h2>9. Industry, Innovation and Infrastructure</h2><p>Build resilient infrastructure and foster innovation.</p></section>
+	<section id="goal10"><h2>10. Reduced Inequality</h2><p>Reduce inequality within and among countries.</p></section>
+	<section id="goal11"><h2>11. Sustainable Cities and Communities</h2><p>Make cities inclusive, safe, resilient, and sustainable.</p></section>
+	<section id="goal12"><h2>12. Responsible Consumption and Production</h2><p>Ensure sustainable consumption and production patterns.</p></section>
+	<section id="goal13"><h2>13. Climate Action</h2><p>Take urgent action to combat climate change.</p></section>
+	<section id="goal14"><h2>14. Life Below Water</h2><p>Conserve and sustainably use the oceans and marine resources.</p></section>
+	<section id="goal15"><h2>15. Life on Land</h2><p>Protect, restore and promote sustainable use of terrestrial ecosystems.</p></section>
+	<section id="goal16"><h2>16. Peace, Justice and Strong Institutions</h2><p>Promote peaceful and inclusive societies for sustainable development.</p></section>
+	<section id="goal17"><h2>17. Partnerships for the Goals</h2><p>Strengthen global partnerships to support sustainable development.</p></section>
+</main>
+<footer>
+	<p>&copy; 2025 SDG Initiative. All Rights Reserved.</p>
+</footer>
+<button id="topBtn" title="Go to top">↑</button>
+</div>
+		<script>
+			
+    const btn = document.getElementById("topBtn");
+
+    window.onscroll = function () {
+
+      btn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+
+    };
+
+    btn.onclick = function () {
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    };
+		</script>
+
+		<script src="script.js"></script>
+	</body>
+</html> 

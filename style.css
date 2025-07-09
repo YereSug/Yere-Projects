@@ -1,0 +1,176 @@
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #004d99;
+}
+
+ul li a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #004d99;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 0.5rem;
+  background: #004d99;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #003366;
+}
+
+#top-left-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: auto;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149000981.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 36px; /* Increase font size for main headings */
+}
+
+h2 {
+  font-size: 28px; /* Increase font size for subheadings */
+}
+
+p, ul li {
+  font-size: 20px; /* Increase font size for paragraphs and list items */
+}
+
+nav a {
+  font-size: 20px; /* Increase font size for navigation links */
+}
+
+.about-box {
+  border: 2px solid #004d99;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 800px; /* Set a maximum width */
+  margin: 0 auto; /* Center the box horizontally */
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#photo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #004d99; /* Add a blue border */
+  border-radius: 10px; /* Round the corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+
+#photo img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+.project-showcase {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #004d99;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.project {
+  text-align: center;
+}
+
+.project img {
+  width: 150px;
+  height: auto;
+  border: 2px solid #004d99;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project p {
+  font-size: 18px;
+  margin-top: 10px;
+}

@@ -1,0 +1,154 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/113/752/original/sdg-color-background-sustainable-development-goals-illustration-vector.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin: 0;
+    padding: 0;
+  line-height: 1.6;
+}
+
+/* Grid Container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  grid-area: header;
+  background-color: #005f73;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: flex-start;
+}
+
+.logo {
+	height: 60px;
+	width: auto;
+	border-radius: 8px;
+}
+
+header:hover {
+  background-color: #0a9396;
+}
+
+/* Sidebar */
+.sidebar {
+  grid-area: sidebar;
+  background: #dbeafe;
+  padding: 15px;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: bold;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+/* Main Content */
+.content {
+  grid-area: content;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.content section {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-left: 5px solid transparent;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.content section:hover {
+  border-color: #0077b6;
+  background-color: #f1f5f9;
+}
+
+.content h2 {
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 15px;
+  background-color: #1e293b;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+footer:hover {
+  background-color: #334155;
+}
+
+/* Scroll to Top Button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#topBtn:hover {
+  background-color: #2563eb;
+} 

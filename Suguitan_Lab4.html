@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Suguitan Lab 4 SDG Registration Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<div style="text-align: center; margin-top: 20px;">
+	<a href="index.html" style="display: inline-block; padding: 10px 20px; border: 2px solid #004d99; border-radius: 10px; background-color: #f0f8ff; color: #004d99; text-decoration: none; font-weight: bold; transition: transform 0.3s, box-shadow 0.3s;">
+	  Back to Home
+	</a>
+</div>
+
+<body>
+	<div class="form-container">
+		<h1>UN SDG Registration Form</h1>
+		<form>
+			<label for="fullname"><b>Full Name: (Last name, First name, Middle initial)</b></label>
+			<input type="text" id="fullname" name="fullname" required>
+			<label for="email"><b>Email Address:</b></label>
+			<input type="email" id="email" name="email" required>
+			<label for="age"><b>Age:</b></label>
+			<input type="number" id="age" name="age" required>
+			<label><b>Gender:</b></label>
+	<div class="gender-options">
+		<label><input type="radio" name="gender" value="Male"> Male</label>
+		<label><input type="radio" name="gender" value="Female"> Female</label>
+		<label><input type="radio" name="gender" value="Other"> Other</label>
+	</div>
+	<label><b>SDG(s) of Interest:</b></label>
+		<div class="sdg-options">
+			<label><input type="checkbox" name="sdg" value="No Poverty"> No Poverty</label>
+			<label><input type="checkbox" name="sdg" value="Zero Hunger"> Zero Hunger</label>
+			<label><input type="checkbox" name="sdg" value="Climate Action"> Climate Action</label>
+			<label><input type="checkbox" name="sdg" value="Quality Education"> Quality Education</label>
+			<label><input type="checkbox" name="sdg" value="Gender Equality"> Gender Equality</label>
+			<label><input type="checkbox" name="sdg" value="Clean Water and Sanitation"> Clean Water and Sanitation</label>
+			<label><input type="checkbox" name="sdg" value="Affordable and Clean energy"> Affordable and Clean energy</label>
+			<label><input type="checkbox" name="sdg" value="Decent work and Economic growth"> Decent work and Economic growth</label>
+			<label><input type="checkbox" name="sdg" value="Industry, Innovation and Infrastructure"> Industry, Innovation and Infrastructure</label>
+			<label><input type="checkbox" name="sdg" value="Reduced Inequalities"> Reduced Inequalities</label>
+			<label><input type="checkbox" name="sdg" value="Sustainable cities and Communities"> Sustainable cities and Communities</label>
+			<label><input type="checkbox" name="sdg" value="Responsible consumption and production"> Responsible consumption and production</label>
+			<label><input type="checkbox" name="sdg" value="Climate Action"> Climate Action</label>
+			<label><input type="checkbox" name="sdg" value="Life below Water"> Life below Water</label>
+			<label><input type="checkbox" name="sdg" value="Life on Land"> Life on Land</label>
+			<label><input type="checkbox" name="sdg" value="Peace, Justice, and Strong institutions"> Peace, Justice, and Strong institutions</label>
+			<label><input type="checkbox" name="sdg" value="Partnerships for the goals"> Partnerships for the goals</label>
+		</div>
+	<button type="submit">Submit</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html> 
